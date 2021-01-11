@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Test Automation Suite]">
+  <test thread-count="5" name="Parameter TestNG Features(failed)">
+    <parameter name="password" value="Naindira@4436562"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="Stage"/>
+    <parameter name="url" value="http:\\www.gmail.com"/>
+    <parameter name="username" value="ponraj8785@gmail.com"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Parameter TestNG Features(failed) -->
+</suite> <!-- Failed suite [TestNG Session Test Automation Suite] -->
